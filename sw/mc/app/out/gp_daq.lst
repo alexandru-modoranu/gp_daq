@@ -1,5 +1,5 @@
 
-out/my_daq.elf:     file format elf32-avr
+out/gp_daq.elf:     file format elf32-avr
 
 
 Disassembly of section .text:
