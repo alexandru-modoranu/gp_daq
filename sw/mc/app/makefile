@@ -2,7 +2,7 @@
 PROJ_NAME = gp_daq
 
 # Source files to add to the build
-C_FILES = main.c
+C_FILES = main.c diag.c param.c routine.c sched.c util.c
 
 # Assembly files to add to the buid
 ASM_FILES = 
@@ -89,13 +89,7 @@ disasm:
 # Write flash contents to target
 flash:
 	@echo -n Flashing target...
-	#@avrdude -c avr910 -P com21 -b 115200 -p m328p -F -U flash:w:$(OUT_PATH)/$(PROJ_NAME).hex -v
-	@echo [Done] 	
-	
-# Write fuse values	
-fuse:
-	@echo -n Writing fuse values...
-	#@avrdude -c buspirate -P com19 -p m168 -F -U hfuse:w:0xa4:m -U lfuse:w:0xa7:m -U efuse:w:0xf8:m
+	@avrdude -p m328p -P "COM24" -c arduino -b 9600 -F -u -U flash:w:$(OUT_PATH)/$(PROJ_NAME).hex -v
 	@echo [Done] 	
 	
 # Print size

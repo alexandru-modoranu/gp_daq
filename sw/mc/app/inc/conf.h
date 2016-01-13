@@ -1,5 +1,5 @@
 /*******************************************************************************
-gp_daq. A general purpose Data Aquisition System
+my_oven. A system for homemade reflow ovens.
 Copyright (C) 2015  Ionut Catalin Pavel
 
 This program is free software; you can redistribute it and/or
@@ -17,27 +17,20 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 *******************************************************************************/
 
-#include <avr/io.h>
-#include <avr/interrupt.h>
-#include "util.h"
-#include "sched.h"
-#include "diag.h"
-#include "param.h"
+/* Rate at which the scheduler ticks, in Hz */
+#define CONFIG_TICK_RATE	(100u)
 
-/**
- * Relocate Vectors and init stuff then go loop forever
- */
-void main(void)
-{
-	//MCUCR = (1u << IVCE);
-	//MCUCR = (1u << IVSEL);
+/* CRC polynomial used for UART data integrity checks, CRC8 */
+#define CONFIG_CRC8_POLY	(0xABu)
 
-	DDRB = 0xFF;
+/* CRC polynomial used for application validation, CRC32 */
+#define CONFIG_CRC32_POLY	(0xEDB88320u)
 
-	param_init();
-	diag_init();
-	sched_init();
-	sei();
+/* Diagnostics buffer length, (fill one page + address + len + control) */
+#define CONFIG_DIAG_BUF_LEN	(136u)
 
-	while(TRUE);
-}
+/* Timeout in ms for receive data */
+#define CONFIG_CHAR_TIMEOUT	(500u)
+
+/* Default baud rate in case parameters invalid */
+#define CONFIG_DEFAULT_BAUD	(19200u)

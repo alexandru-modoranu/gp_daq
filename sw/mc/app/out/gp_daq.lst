@@ -7,55 +7,55 @@ Disassembly of section .text:
 00000000 <__vectors>:
    0:	33 c0       	rjmp	.+102    	; 0x68 <__ctors_end>
    2:	00 00       	nop
-   4:	39 c0       	rjmp	.+114    	; 0x78 <__bad_interrupt>
+   4:	4c c0       	rjmp	.+152    	; 0x9e <__bad_interrupt>
    6:	00 00       	nop
-   8:	37 c0       	rjmp	.+110    	; 0x78 <__bad_interrupt>
+   8:	4a c0       	rjmp	.+148    	; 0x9e <__bad_interrupt>
    a:	00 00       	nop
-   c:	35 c0       	rjmp	.+106    	; 0x78 <__bad_interrupt>
+   c:	48 c0       	rjmp	.+144    	; 0x9e <__bad_interrupt>
    e:	00 00       	nop
-  10:	33 c0       	rjmp	.+102    	; 0x78 <__bad_interrupt>
+  10:	46 c0       	rjmp	.+140    	; 0x9e <__bad_interrupt>
   12:	00 00       	nop
-  14:	31 c0       	rjmp	.+98     	; 0x78 <__bad_interrupt>
+  14:	44 c0       	rjmp	.+136    	; 0x9e <__bad_interrupt>
   16:	00 00       	nop
-  18:	2f c0       	rjmp	.+94     	; 0x78 <__bad_interrupt>
+  18:	42 c0       	rjmp	.+132    	; 0x9e <__bad_interrupt>
   1a:	00 00       	nop
-  1c:	2d c0       	rjmp	.+90     	; 0x78 <__bad_interrupt>
+  1c:	6d c1       	rjmp	.+730    	; 0x2f8 <__vector_7>
   1e:	00 00       	nop
-  20:	2b c0       	rjmp	.+86     	; 0x78 <__bad_interrupt>
+  20:	3e c0       	rjmp	.+124    	; 0x9e <__bad_interrupt>
   22:	00 00       	nop
-  24:	29 c0       	rjmp	.+82     	; 0x78 <__bad_interrupt>
+  24:	3c c0       	rjmp	.+120    	; 0x9e <__bad_interrupt>
   26:	00 00       	nop
-  28:	27 c0       	rjmp	.+78     	; 0x78 <__bad_interrupt>
+  28:	3a c0       	rjmp	.+116    	; 0x9e <__bad_interrupt>
   2a:	00 00       	nop
-  2c:	25 c0       	rjmp	.+74     	; 0x78 <__bad_interrupt>
+  2c:	38 c0       	rjmp	.+112    	; 0x9e <__bad_interrupt>
   2e:	00 00       	nop
-  30:	23 c0       	rjmp	.+70     	; 0x78 <__bad_interrupt>
+  30:	36 c0       	rjmp	.+108    	; 0x9e <__bad_interrupt>
   32:	00 00       	nop
-  34:	21 c0       	rjmp	.+66     	; 0x78 <__bad_interrupt>
+  34:	34 c0       	rjmp	.+104    	; 0x9e <__bad_interrupt>
   36:	00 00       	nop
-  38:	1f c0       	rjmp	.+62     	; 0x78 <__bad_interrupt>
+  38:	32 c0       	rjmp	.+100    	; 0x9e <__bad_interrupt>
   3a:	00 00       	nop
-  3c:	1d c0       	rjmp	.+58     	; 0x78 <__bad_interrupt>
+  3c:	30 c0       	rjmp	.+96     	; 0x9e <__bad_interrupt>
   3e:	00 00       	nop
-  40:	1b c0       	rjmp	.+54     	; 0x78 <__bad_interrupt>
+  40:	2e c0       	rjmp	.+92     	; 0x9e <__bad_interrupt>
   42:	00 00       	nop
-  44:	19 c0       	rjmp	.+50     	; 0x78 <__bad_interrupt>
+  44:	2c c0       	rjmp	.+88     	; 0x9e <__bad_interrupt>
   46:	00 00       	nop
-  48:	17 c0       	rjmp	.+46     	; 0x78 <__bad_interrupt>
+  48:	65 c0       	rjmp	.+202    	; 0x114 <__vector_18>
   4a:	00 00       	nop
-  4c:	15 c0       	rjmp	.+42     	; 0x78 <__bad_interrupt>
+  4c:	28 c0       	rjmp	.+80     	; 0x9e <__bad_interrupt>
   4e:	00 00       	nop
-  50:	13 c0       	rjmp	.+38     	; 0x78 <__bad_interrupt>
+  50:	39 c0       	rjmp	.+114    	; 0xc4 <__vector_20>
   52:	00 00       	nop
-  54:	11 c0       	rjmp	.+34     	; 0x78 <__bad_interrupt>
+  54:	24 c0       	rjmp	.+72     	; 0x9e <__bad_interrupt>
   56:	00 00       	nop
-  58:	0f c0       	rjmp	.+30     	; 0x78 <__bad_interrupt>
+  58:	22 c0       	rjmp	.+68     	; 0x9e <__bad_interrupt>
   5a:	00 00       	nop
-  5c:	0d c0       	rjmp	.+26     	; 0x78 <__bad_interrupt>
+  5c:	20 c0       	rjmp	.+64     	; 0x9e <__bad_interrupt>
   5e:	00 00       	nop
-  60:	0b c0       	rjmp	.+22     	; 0x78 <__bad_interrupt>
+  60:	1e c0       	rjmp	.+60     	; 0x9e <__bad_interrupt>
   62:	00 00       	nop
-  64:	09 c0       	rjmp	.+18     	; 0x78 <__bad_interrupt>
+  64:	1c c0       	rjmp	.+56     	; 0x9e <__bad_interrupt>
 	...
 
 00000068 <__ctors_end>:
@@ -65,23 +65,778 @@ Disassembly of section .text:
   6e:	d8 e0       	ldi	r29, 0x08	; 8
   70:	de bf       	out	0x3e, r29	; 62
   72:	cd bf       	out	0x3d, r28	; 61
-  74:	02 d0       	rcall	.+4      	; 0x7a <main>
-  76:	02 c0       	rjmp	.+4      	; 0x7c <_exit>
 
-00000078 <__bad_interrupt>:
-  78:	c3 cf       	rjmp	.-122    	; 0x0 <__vectors>
+00000074 <__do_copy_data>:
+  74:	11 e0       	ldi	r17, 0x01	; 1
+  76:	a0 e0       	ldi	r26, 0x00	; 0
+  78:	b1 e0       	ldi	r27, 0x01	; 1
+  7a:	e8 e4       	ldi	r30, 0x48	; 72
+  7c:	f4 e0       	ldi	r31, 0x04	; 4
+  7e:	02 c0       	rjmp	.+4      	; 0x84 <.do_copy_data_start>
 
-0000007a <main>:
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-*******************************************************************************/
+00000080 <.do_copy_data_loop>:
+  80:	05 90       	lpm	r0, Z+
+  82:	0d 92       	st	X+, r0
 
+00000084 <.do_copy_data_start>:
+  84:	ae 31       	cpi	r26, 0x1E	; 30
+  86:	b1 07       	cpc	r27, r17
+  88:	d9 f7       	brne	.-10     	; 0x80 <.do_copy_data_loop>
+
+0000008a <__do_clear_bss>:
+  8a:	11 e0       	ldi	r17, 0x01	; 1
+  8c:	ae e1       	ldi	r26, 0x1E	; 30
+  8e:	b1 e0       	ldi	r27, 0x01	; 1
+  90:	01 c0       	rjmp	.+2      	; 0x94 <.do_clear_bss_start>
+
+00000092 <.do_clear_bss_loop>:
+  92:	1d 92       	st	X+, r1
+
+00000094 <.do_clear_bss_start>:
+  94:	aa 3a       	cpi	r26, 0xAA	; 170
+  96:	b1 07       	cpc	r27, r17
+  98:	e1 f7       	brne	.-8      	; 0x92 <.do_clear_bss_loop>
+  9a:	02 d0       	rcall	.+4      	; 0xa0 <main>
+  9c:	d3 c1       	rjmp	.+934    	; 0x444 <_exit>
+
+0000009e <__bad_interrupt>:
+  9e:	b0 cf       	rjmp	.-160    	; 0x0 <__vectors>
+
+000000a0 <main>:
 void main(void)
 {
-  7a:	ff cf       	rjmp	.-2      	; 0x7a <main>
+	//MCUCR = (1u << IVCE);
+	//MCUCR = (1u << IVSEL);
 
-0000007c <_exit>:
-  7c:	f8 94       	cli
+	DDRB = 0xFF;
+  a0:	8f ef       	ldi	r24, 0xFF	; 255
+  a2:	84 b9       	out	0x04, r24	; 4
 
-0000007e <__stop_program>:
-  7e:	ff cf       	rjmp	.-2      	; 0x7e <__stop_program>
+	param_init();
+  a4:	ef d0       	rcall	.+478    	; 0x284 <param_init>
+	diag_init();
+  a6:	da d0       	rcall	.+436    	; 0x25c <diag_init>
+	sched_init();
+  a8:	12 d1       	rcall	.+548    	; 0x2ce <sched_init>
+	sei();
+  aa:	78 94       	sei
+  ac:	ff cf       	rjmp	.-2      	; 0xac <main+0xc>
+
+000000ae <diag_task>:
+ * Called each 10ms.
+ */
+void diag_task(void)
+{
+	/* Check receive timeout */
+	if (tOut > 0u) {
+  ae:	80 91 a8 01 	lds	r24, 0x01A8
+  b2:	88 23       	and	r24, r24
+  b4:	21 f0       	breq	.+8      	; 0xbe <diag_task+0x10>
+		tOut--;
+  b6:	81 50       	subi	r24, 0x01	; 1
+  b8:	80 93 a8 01 	sts	0x01A8, r24
+  bc:	08 95       	ret
+	} else {
+		rxInd = 0u;
+  be:	10 92 a6 01 	sts	0x01A6, r1
+  c2:	08 95       	ret
+
+000000c4 <__vector_20>:
+/**
+ * Called when the last send request was successfull
+ * @param USART_TX_vect IRQ vector
+ */
+ISR(USART_TX_vect)
+{
+  c4:	1f 92       	push	r1
+  c6:	0f 92       	push	r0
+  c8:	0f b6       	in	r0, 0x3f	; 63
+  ca:	0f 92       	push	r0
+  cc:	11 24       	eor	r1, r1
+  ce:	8f 93       	push	r24
+  d0:	9f 93       	push	r25
+  d2:	ef 93       	push	r30
+  d4:	ff 93       	push	r31
+	/* Fetch new value from buffer and send it ,
+	 * reactivate the receiver on complete*/
+	if (txInd <= diagBuf[0u]) {
+  d6:	90 91 a7 01 	lds	r25, 0x01A7
+  da:	80 91 1e 01 	lds	r24, 0x011E
+  de:	89 17       	cp	r24, r25
+  e0:	58 f0       	brcs	.+22     	; 0xf8 <__vector_20+0x34>
+		UDR0 = diagBuf[txInd++];
+  e2:	e9 2f       	mov	r30, r25
+  e4:	f0 e0       	ldi	r31, 0x00	; 0
+  e6:	e2 5e       	subi	r30, 0xE2	; 226
+  e8:	fe 4f       	sbci	r31, 0xFE	; 254
+  ea:	80 81       	ld	r24, Z
+  ec:	80 93 c6 00 	sts	0x00C6, r24
+  f0:	9f 5f       	subi	r25, 0xFF	; 255
+  f2:	90 93 a7 01 	sts	0x01A7, r25
+  f6:	05 c0       	rjmp	.+10     	; 0x102 <__vector_20+0x3e>
+	} else {
+		UCSR0B |= (1u << RXEN0);
+  f8:	80 91 c1 00 	lds	r24, 0x00C1
+  fc:	80 61       	ori	r24, 0x10	; 16
+  fe:	80 93 c1 00 	sts	0x00C1, r24
+	}
+}
+ 102:	ff 91       	pop	r31
+ 104:	ef 91       	pop	r30
+ 106:	9f 91       	pop	r25
+ 108:	8f 91       	pop	r24
+ 10a:	0f 90       	pop	r0
+ 10c:	0f be       	out	0x3f, r0	; 63
+ 10e:	0f 90       	pop	r0
+ 110:	1f 90       	pop	r1
+ 112:	18 95       	reti
+
+00000114 <__vector_18>:
+/**
+ * Called when a charecter is received on UART
+ * @param USART_RX_vect IRQ vector
+ */
+ISR(USART_RX_vect)
+{
+ 114:	1f 92       	push	r1
+ 116:	0f 92       	push	r0
+ 118:	0f b6       	in	r0, 0x3f	; 63
+ 11a:	0f 92       	push	r0
+ 11c:	11 24       	eor	r1, r1
+ 11e:	2f 93       	push	r18
+ 120:	3f 93       	push	r19
+ 122:	4f 93       	push	r20
+ 124:	5f 93       	push	r21
+ 126:	6f 93       	push	r22
+ 128:	7f 93       	push	r23
+ 12a:	8f 93       	push	r24
+ 12c:	9f 93       	push	r25
+ 12e:	af 93       	push	r26
+ 130:	bf 93       	push	r27
+ 132:	ef 93       	push	r30
+ 134:	ff 93       	push	r31
+	/* Reset timeout counter and push value in buffer */
+	tOut = (CONFIG_CHAR_TIMEOUT / 10u);
+ 136:	82 e3       	ldi	r24, 0x32	; 50
+ 138:	80 93 a8 01 	sts	0x01A8, r24
+	if (rxInd < (CONFIG_DIAG_BUF_LEN - 1u)) {
+ 13c:	90 91 a6 01 	lds	r25, 0x01A6
+ 140:	97 38       	cpi	r25, 0x87	; 135
+ 142:	50 f4       	brcc	.+20     	; 0x158 <__vector_18+0x44>
+		diagBuf[rxInd++] = UDR0;
+ 144:	80 91 c6 00 	lds	r24, 0x00C6
+ 148:	e9 2f       	mov	r30, r25
+ 14a:	f0 e0       	ldi	r31, 0x00	; 0
+ 14c:	e2 5e       	subi	r30, 0xE2	; 226
+ 14e:	fe 4f       	sbci	r31, 0xFE	; 254
+ 150:	80 83       	st	Z, r24
+ 152:	9f 5f       	subi	r25, 0xFF	; 255
+ 154:	90 93 a6 01 	sts	0x01A6, r25
+	}
+
+	/* Activate processing task in case the buffer length is
+	 * correct. Deactivate receiver also */
+	if (diagBuf[0u] < rxInd) {
+ 158:	90 91 1e 01 	lds	r25, 0x011E
+ 15c:	80 91 a6 01 	lds	r24, 0x01A6
+ 160:	98 17       	cp	r25, r24
+ 162:	40 f4       	brcc	.+16     	; 0x174 <__vector_18+0x60>
+		UCSR0B &= ~(1u << RXEN0);
+ 164:	80 91 c1 00 	lds	r24, 0x00C1
+ 168:	8f 7e       	andi	r24, 0xEF	; 239
+ 16a:	80 93 c1 00 	sts	0x00C1, r24
+		sched_set_active(TASK_ID_DIAG_RECEIVE, TRUE);
+ 16e:	80 e0       	ldi	r24, 0x00	; 0
+ 170:	61 e0       	ldi	r22, 0x01	; 1
+ 172:	8f d0       	rcall	.+286    	; 0x292 <sched_set_active>
+	}
+}
+ 174:	ff 91       	pop	r31
+ 176:	ef 91       	pop	r30
+ 178:	bf 91       	pop	r27
+ 17a:	af 91       	pop	r26
+ 17c:	9f 91       	pop	r25
+ 17e:	8f 91       	pop	r24
+ 180:	7f 91       	pop	r23
+ 182:	6f 91       	pop	r22
+ 184:	5f 91       	pop	r21
+ 186:	4f 91       	pop	r20
+ 188:	3f 91       	pop	r19
+ 18a:	2f 91       	pop	r18
+ 18c:	0f 90       	pop	r0
+ 18e:	0f be       	out	0x3f, r0	; 63
+ 190:	0f 90       	pop	r0
+ 192:	1f 90       	pop	r1
+ 194:	18 95       	reti
+
+00000196 <diag_receive_task>:
+/**
+ * Execution triggered when buffer received expecting values,
+ * terminated after one execution
+ */
+void diag_receive_task(void)
+{
+ 196:	1f 93       	push	r17
+ 198:	cf 93       	push	r28
+ 19a:	df 93       	push	r29
+	uint8_t i, len, rid, err;
+	struct sid *ref = NULL;
+
+	/* Clear all indexes */
+	rxInd = 0u;
+ 19c:	10 92 a6 01 	sts	0x01A6, r1
+	txInd = 0u;
+ 1a0:	10 92 a7 01 	sts	0x01A7, r1
+	len = diagBuf[0u];
+ 1a4:	60 91 1e 01 	lds	r22, 0x011E
+
+	/* Check for correct message parameters then execute routine,
+	 * if parameters are incorrect respond with error code */
+	if (diagBuf[len] != util_crc8(&diagBuf[1u], (len - 1u))) {
+ 1a8:	c6 2f       	mov	r28, r22
+ 1aa:	d0 e0       	ldi	r29, 0x00	; 0
+ 1ac:	fe 01       	movw	r30, r28
+ 1ae:	e2 5e       	subi	r30, 0xE2	; 226
+ 1b0:	fe 4f       	sbci	r31, 0xFE	; 254
+ 1b2:	10 81       	ld	r17, Z
+ 1b4:	61 50       	subi	r22, 0x01	; 1
+ 1b6:	8f e1       	ldi	r24, 0x1F	; 31
+ 1b8:	91 e0       	ldi	r25, 0x01	; 1
+ 1ba:	26 d1       	rcall	.+588    	; 0x408 <util_crc8>
+ 1bc:	18 17       	cp	r17, r24
+ 1be:	11 f0       	breq	.+4      	; 0x1c4 <diag_receive_task+0x2e>
+ 1c0:	83 e1       	ldi	r24, 0x13	; 19
+ 1c2:	25 c0       	rjmp	.+74     	; 0x20e <diag_receive_task+0x78>
+		err = SID_ERR_FRAMING;
+	} else {
+		for (i = 0u; i < ARRAY_SIZE(sidTable); i++) {
+			if (sidTable[i].id == diagBuf[1u]) {
+ 1c4:	90 91 00 01 	lds	r25, 0x0100
+ 1c8:	80 91 1f 01 	lds	r24, 0x011F
+ 1cc:	98 17       	cp	r25, r24
+ 1ce:	11 f0       	breq	.+4      	; 0x1d4 <diag_receive_task+0x3e>
+ 1d0:	82 e1       	ldi	r24, 0x12	; 18
+ 1d2:	1d c0       	rjmp	.+58     	; 0x20e <diag_receive_task+0x78>
+				ref = &sidTable[i];
+				break;
+			}
+		}
+		if (ref != NULL) {
+			if (ref->lrq != (len - 2u)) {
+ 1d4:	60 91 01 01 	lds	r22, 0x0101
+ 1d8:	86 2f       	mov	r24, r22
+ 1da:	90 e0       	ldi	r25, 0x00	; 0
+ 1dc:	22 97       	sbiw	r28, 0x02	; 2
+ 1de:	8c 17       	cp	r24, r28
+ 1e0:	9d 07       	cpc	r25, r29
+ 1e2:	d1 f5       	brne	.+116    	; 0x258 <diag_receive_task+0xc2>
+				err = SID_RX_WRONG_LENGTH;
+			} else {
+				err = ref->cback(&diagBuf[2u], ref->lrq, &diagBuf[2u], ref->lrs);
+ 1e4:	e0 91 03 01 	lds	r30, 0x0103
+ 1e8:	f0 91 04 01 	lds	r31, 0x0104
+ 1ec:	80 e2       	ldi	r24, 0x20	; 32
+ 1ee:	91 e0       	ldi	r25, 0x01	; 1
+ 1f0:	ac 01       	movw	r20, r24
+ 1f2:	20 91 02 01 	lds	r18, 0x0102
+ 1f6:	09 95       	icall
+				len = ref->lrs + 2u;
+ 1f8:	60 91 02 01 	lds	r22, 0x0102
+				rid = ref->id + SID_RQ_VALID_OFFSET;
+ 1fc:	90 91 00 01 	lds	r25, 0x0100
+		}
+	}
+
+	/* If there was no error leave the
+	 * message as written by routine */
+	if (err != 0u) {
+ 200:	88 23       	and	r24, r24
+ 202:	29 f4       	brne	.+10     	; 0x20e <diag_receive_task+0x78>
+		if (ref != NULL) {
+			if (ref->lrq != (len - 2u)) {
+				err = SID_RX_WRONG_LENGTH;
+			} else {
+				err = ref->cback(&diagBuf[2u], ref->lrq, &diagBuf[2u], ref->lrs);
+				len = ref->lrs + 2u;
+ 204:	16 2f       	mov	r17, r22
+ 206:	1e 5f       	subi	r17, 0xFE	; 254
+				rid = ref->id + SID_RQ_VALID_OFFSET;
+ 208:	89 2f       	mov	r24, r25
+ 20a:	80 5c       	subi	r24, 0xC0	; 192
+ 20c:	04 c0       	rjmp	.+8      	; 0x216 <diag_receive_task+0x80>
+	/* If there was no error leave the
+	 * message as written by routine */
+	if (err != 0u) {
+		len = SID_ERROR_LENGTH;
+		rid = SID_ERR_RESPONSE;
+		diagBuf[2u] = err;
+ 20e:	80 93 20 01 	sts	0x0120, r24
+ 212:	13 e0       	ldi	r17, 0x03	; 3
+ 214:	8f ee       	ldi	r24, 0xEF	; 239
+	}
+
+	/* Update buffer values and start transmission */
+	diagBuf[0u] = len;
+ 216:	10 93 1e 01 	sts	0x011E, r17
+	diagBuf[1u] = rid;
+ 21a:	80 93 1f 01 	sts	0x011F, r24
+	diagBuf[len] = util_crc8(&diagBuf[1u], (len - 1u));
+ 21e:	61 2f       	mov	r22, r17
+ 220:	61 50       	subi	r22, 0x01	; 1
+ 222:	8f e1       	ldi	r24, 0x1F	; 31
+ 224:	91 e0       	ldi	r25, 0x01	; 1
+ 226:	f0 d0       	rcall	.+480    	; 0x408 <util_crc8>
+ 228:	e1 2f       	mov	r30, r17
+ 22a:	f0 e0       	ldi	r31, 0x00	; 0
+ 22c:	e2 5e       	subi	r30, 0xE2	; 226
+ 22e:	fe 4f       	sbci	r31, 0xFE	; 254
+ 230:	80 83       	st	Z, r24
+	UDR0 = diagBuf[txInd++];
+ 232:	90 91 a7 01 	lds	r25, 0x01A7
+ 236:	e9 2f       	mov	r30, r25
+ 238:	f0 e0       	ldi	r31, 0x00	; 0
+ 23a:	e2 5e       	subi	r30, 0xE2	; 226
+ 23c:	fe 4f       	sbci	r31, 0xFE	; 254
+ 23e:	80 81       	ld	r24, Z
+ 240:	80 93 c6 00 	sts	0x00C6, r24
+ 244:	9f 5f       	subi	r25, 0xFF	; 255
+ 246:	90 93 a7 01 	sts	0x01A7, r25
+
+	/* Deactivate ourselves */
+	sched_set_active(TASK_ID_DIAG_RECEIVE, FALSE);
+ 24a:	80 e0       	ldi	r24, 0x00	; 0
+ 24c:	60 e0       	ldi	r22, 0x00	; 0
+ 24e:	21 d0       	rcall	.+66     	; 0x292 <sched_set_active>
+}
+ 250:	df 91       	pop	r29
+ 252:	cf 91       	pop	r28
+ 254:	1f 91       	pop	r17
+ 256:	08 95       	ret
+ 258:	84 e1       	ldi	r24, 0x14	; 20
+ 25a:	d9 cf       	rjmp	.-78     	; 0x20e <diag_receive_task+0x78>
+
+0000025c <diag_init>:
+ * Called at init. Used for initalizing the UART
+ */
+void diag_init(void)
+{
+	/* Init UART */
+	DDRD |= (1u < DDD2);
+ 25c:	50 9a       	sbi	0x0a, 0	; 10
+	UBRR0 = param_get_baud();
+ 25e:	0f d0       	rcall	.+30     	; 0x27e <param_get_baud>
+ 260:	90 93 c5 00 	sts	0x00C5, r25
+ 264:	80 93 c4 00 	sts	0x00C4, r24
+	UCSR0C |= ((1u << UCSZ01) | (1u << UCSZ00));
+ 268:	e2 ec       	ldi	r30, 0xC2	; 194
+ 26a:	f0 e0       	ldi	r31, 0x00	; 0
+ 26c:	80 81       	ld	r24, Z
+ 26e:	86 60       	ori	r24, 0x06	; 6
+ 270:	80 83       	st	Z, r24
+	UCSR0B |= ((1u << RXCIE0) | (1u << TXCIE0) | (1u << RXEN0) | (1u << TXEN0));
+ 272:	e1 ec       	ldi	r30, 0xC1	; 193
+ 274:	f0 e0       	ldi	r31, 0x00	; 0
+ 276:	80 81       	ld	r24, Z
+ 278:	88 6d       	ori	r24, 0xD8	; 216
+ 27a:	80 83       	st	Z, r24
+}
+ 27c:	08 95       	ret
+
+0000027e <param_get_baud>:
+static struct param lparam;
+
+uint16_t param_get_baud(void)
+{
+	return (uint16_t)UART_BAUD(9600);
+}
+ 27e:	87 e7       	ldi	r24, 0x77	; 119
+ 280:	90 e0       	ldi	r25, 0x00	; 0
+ 282:	08 95       	ret
+
+00000284 <param_init>:
+
+void param_init(void)
+{
+
+}
+ 284:	08 95       	ret
+
+00000286 <routine_read_info>:
+ * @param rsData Response data pointer
+ * @param rsLen Response data length
+ * @return (ROUTINE_OK/ROUTINE_NOK/ROUTINE_PENDING)
+ */
+uint8_t routine_read_info(uint8_t *rqData, uint8_t rqLen, uint8_t *rsData, uint8_t rsLen)
+{
+ 286:	fa 01       	movw	r30, r20
+	(void)rqData;
+	(void)rqLen;
+	(void)rsLen;
+
+	rsData[0u] = APP_MAJOR_VERSION;
+ 288:	81 e0       	ldi	r24, 0x01	; 1
+ 28a:	80 83       	st	Z, r24
+	rsData[1u] = APP_MINOR_VERSION;
+ 28c:	81 83       	std	Z+1, r24	; 0x01
+
+	return ROUTINE_OK;
+}
+ 28e:	80 e0       	ldi	r24, 0x00	; 0
+ 290:	08 95       	ret
+
+00000292 <sched_set_active>:
+ * Activates or deactivates execution of a task
+ * @param ind Task index
+ * @param val (TRUE | FALSE)
+ */
+void sched_set_active(uint8_t ind, uint8_t val)
+{
+ 292:	90 e0       	ldi	r25, 0x00	; 0
+	if(val != FALSE) {
+ 294:	66 23       	and	r22, r22
+ 296:	69 f0       	breq	.+26     	; 0x2b2 <sched_set_active+0x20>
+		taskTable[ind].flags |= SCHED_FLAGS_ACTIVE;
+ 298:	fc 01       	movw	r30, r24
+ 29a:	33 e0       	ldi	r19, 0x03	; 3
+ 29c:	ee 0f       	add	r30, r30
+ 29e:	ff 1f       	adc	r31, r31
+ 2a0:	3a 95       	dec	r19
+ 2a2:	e1 f7       	brne	.-8      	; 0x29c <sched_set_active+0xa>
+ 2a4:	e8 1b       	sub	r30, r24
+ 2a6:	f9 0b       	sbc	r31, r25
+ 2a8:	eb 5f       	subi	r30, 0xFB	; 251
+ 2aa:	fe 4f       	sbci	r31, 0xFE	; 254
+ 2ac:	86 81       	ldd	r24, Z+6	; 0x06
+ 2ae:	82 60       	ori	r24, 0x02	; 2
+ 2b0:	0c c0       	rjmp	.+24     	; 0x2ca <sched_set_active+0x38>
+	} else {
+		taskTable[ind].flags &= ~(SCHED_FLAGS_ACTIVE);
+ 2b2:	fc 01       	movw	r30, r24
+ 2b4:	23 e0       	ldi	r18, 0x03	; 3
+ 2b6:	ee 0f       	add	r30, r30
+ 2b8:	ff 1f       	adc	r31, r31
+ 2ba:	2a 95       	dec	r18
+ 2bc:	e1 f7       	brne	.-8      	; 0x2b6 <sched_set_active+0x24>
+ 2be:	e8 1b       	sub	r30, r24
+ 2c0:	f9 0b       	sbc	r31, r25
+ 2c2:	eb 5f       	subi	r30, 0xFB	; 251
+ 2c4:	fe 4f       	sbci	r31, 0xFE	; 254
+ 2c6:	86 81       	ldd	r24, Z+6	; 0x06
+ 2c8:	8d 7f       	andi	r24, 0xFD	; 253
+ 2ca:	86 83       	std	Z+6, r24	; 0x06
+ 2cc:	08 95       	ret
+
+000002ce <sched_init>:
+	/* Initialize timer to give a tick */
+#if (CONFIG_TICK_RATE <= (F_CPU / (1024u * 255u)))
+	|| (CONFIG_TICK_RATE > (F_CPU / 1024u))
+#error "Could not resolve tick frequency."
+#else
+	OCR2A = (uint8_t)(F_CPU / (1024u * CONFIG_TICK_RATE));
+ 2ce:	84 ef       	ldi	r24, 0xF4	; 244
+ 2d0:	80 93 b3 00 	sts	0x00B3, r24
+	TCNT2 = 0u;
+ 2d4:	10 92 b2 00 	sts	0x00B2, r1
+	TCCR2A |= (1u << WGM21);
+ 2d8:	e0 eb       	ldi	r30, 0xB0	; 176
+ 2da:	f0 e0       	ldi	r31, 0x00	; 0
+ 2dc:	80 81       	ld	r24, Z
+ 2de:	82 60       	ori	r24, 0x02	; 2
+ 2e0:	80 83       	st	Z, r24
+	TIMSK2 |= (1u << OCIE2A);
+ 2e2:	e0 e7       	ldi	r30, 0x70	; 112
+ 2e4:	f0 e0       	ldi	r31, 0x00	; 0
+ 2e6:	80 81       	ld	r24, Z
+ 2e8:	82 60       	ori	r24, 0x02	; 2
+ 2ea:	80 83       	st	Z, r24
+	TCCR2B |= ((1u << CS22) | (1u << CS21) | (1u << CS20));
+ 2ec:	e1 eb       	ldi	r30, 0xB1	; 177
+ 2ee:	f0 e0       	ldi	r31, 0x00	; 0
+ 2f0:	80 81       	ld	r24, Z
+ 2f2:	87 60       	ori	r24, 0x07	; 7
+ 2f4:	80 83       	st	Z, r24
+#endif
+}
+ 2f6:	08 95       	ret
+
+000002f8 <__vector_7>:
+{
+	uint8_t i;
+	struct task *tsk;
+
+	/* Save register context in case of nesting */
+	SAVE_CONTEXT();
+ 2f8:	0f 92       	push	r0
+ 2fa:	0f b6       	in	r0, 0x3f	; 63
+ 2fc:	f8 94       	cli
+ 2fe:	0f 92       	push	r0
+ 300:	1f 92       	push	r1
+ 302:	11 24       	eor	r1, r1
+ 304:	2f 92       	push	r2
+ 306:	3f 92       	push	r3
+ 308:	4f 92       	push	r4
+ 30a:	5f 92       	push	r5
+ 30c:	6f 92       	push	r6
+ 30e:	7f 92       	push	r7
+ 310:	8f 92       	push	r8
+ 312:	9f 92       	push	r9
+ 314:	af 92       	push	r10
+ 316:	bf 92       	push	r11
+ 318:	cf 92       	push	r12
+ 31a:	df 92       	push	r13
+ 31c:	ef 92       	push	r14
+ 31e:	ff 92       	push	r15
+ 320:	0f 93       	push	r16
+ 322:	1f 93       	push	r17
+ 324:	2f 93       	push	r18
+ 326:	3f 93       	push	r19
+ 328:	4f 93       	push	r20
+ 32a:	5f 93       	push	r21
+ 32c:	6f 93       	push	r22
+ 32e:	7f 93       	push	r23
+ 330:	8f 93       	push	r24
+ 332:	9f 93       	push	r25
+ 334:	af 93       	push	r26
+ 336:	bf 93       	push	r27
+ 338:	cf 93       	push	r28
+ 33a:	df 93       	push	r29
+ 33c:	ef 93       	push	r30
+ 33e:	ff 93       	push	r31
+ 340:	c5 e0       	ldi	r28, 0x05	; 5
+ 342:	d1 e0       	ldi	r29, 0x01	; 1
+ 344:	10 e0       	ldi	r17, 0x00	; 0
+	/* For all tasks in list */
+	for (i = 0u; i < ARRAY_SIZE(taskTable); i++) {
+		tsk = &taskTable[i];
+
+		/* Check for running preconditions */
+		if ((tsk->flags == (SCHED_FLAGS_ACTIVE | SCHED_FLAGS_NOT_RUNNING))
+ 346:	8e 81       	ldd	r24, Y+6	; 0x06
+ 348:	83 30       	cpi	r24, 0x03	; 3
+ 34a:	89 f5       	brne	.+98     	; 0x3ae <__vector_7+0xb6>
+ 34c:	28 81       	ld	r18, Y
+ 34e:	39 81       	ldd	r19, Y+1	; 0x01
+ 350:	8a 81       	ldd	r24, Y+2	; 0x02
+ 352:	9b 81       	ldd	r25, Y+3	; 0x03
+ 354:	28 17       	cp	r18, r24
+ 356:	39 07       	cpc	r19, r25
+ 358:	50 f1       	brcs	.+84     	; 0x3ae <__vector_7+0xb6>
+ 35a:	90 91 a9 01 	lds	r25, 0x01A9
+ 35e:	e9 2f       	mov	r30, r25
+ 360:	f0 e0       	ldi	r31, 0x00	; 0
+ 362:	e6 5e       	subi	r30, 0xE6	; 230
+ 364:	fe 4f       	sbci	r31, 0xFE	; 254
+ 366:	80 81       	ld	r24, Z
+ 368:	18 17       	cp	r17, r24
+ 36a:	08 f5       	brcc	.+66     	; 0x3ae <__vector_7+0xb6>
+		&& (tsk->elapsed >= tsk->period)
+		&& (running[current] > i)) {
+
+			/* Clear counter, add prio in queue and mark as running */
+			asm volatile("cli");
+ 36c:	f8 94       	cli
+			tsk->elapsed = 0u;
+ 36e:	19 82       	std	Y+1, r1	; 0x01
+ 370:	18 82       	st	Y, r1
+			tsk->flags &= ~(SCHED_FLAGS_NOT_RUNNING);
+ 372:	82 e0       	ldi	r24, 0x02	; 2
+ 374:	8e 83       	std	Y+6, r24	; 0x06
+			++current;
+ 376:	e9 2f       	mov	r30, r25
+ 378:	ef 5f       	subi	r30, 0xFF	; 255
+ 37a:	e0 93 a9 01 	sts	0x01A9, r30
+			running[current] = i;
+ 37e:	f0 e0       	ldi	r31, 0x00	; 0
+ 380:	e6 5e       	subi	r30, 0xE6	; 230
+ 382:	fe 4f       	sbci	r31, 0xFE	; 254
+ 384:	10 83       	st	Z, r17
+			asm volatile("sei");
+ 386:	78 94       	sei
+
+			/* Execute callback */
+			tsk->task();
+ 388:	ec 81       	ldd	r30, Y+4	; 0x04
+ 38a:	fd 81       	ldd	r31, Y+5	; 0x05
+ 38c:	09 95       	icall
+
+			/* Mark as not running and remove from queue */
+			asm volatile("cli");
+ 38e:	f8 94       	cli
+			tsk->flags |= SCHED_FLAGS_NOT_RUNNING;
+ 390:	8e 81       	ldd	r24, Y+6	; 0x06
+ 392:	81 60       	ori	r24, 0x01	; 1
+ 394:	8e 83       	std	Y+6, r24	; 0x06
+			running[current] = SCHED_IDLE_PRIORITY;
+ 396:	90 91 a9 01 	lds	r25, 0x01A9
+ 39a:	e9 2f       	mov	r30, r25
+ 39c:	f0 e0       	ldi	r31, 0x00	; 0
+ 39e:	e6 5e       	subi	r30, 0xE6	; 230
+ 3a0:	fe 4f       	sbci	r31, 0xFE	; 254
+ 3a2:	8f ef       	ldi	r24, 0xFF	; 255
+ 3a4:	80 83       	st	Z, r24
+			current--;
+ 3a6:	91 50       	subi	r25, 0x01	; 1
+ 3a8:	90 93 a9 01 	sts	0x01A9, r25
+			asm volatile("sei");
+ 3ac:	78 94       	sei
+		}
+
+		/* Increment tick according to tick frequency */
+		tsk->elapsed += (SCHED_BASE_MILISECOND / CONFIG_TICK_RATE);
+ 3ae:	88 81       	ld	r24, Y
+ 3b0:	99 81       	ldd	r25, Y+1	; 0x01
+ 3b2:	0a 96       	adiw	r24, 0x0a	; 10
+ 3b4:	99 83       	std	Y+1, r25	; 0x01
+ 3b6:	88 83       	st	Y, r24
+
+	/* Save register context in case of nesting */
+	SAVE_CONTEXT();
+
+	/* For all tasks in list */
+	for (i = 0u; i < ARRAY_SIZE(taskTable); i++) {
+ 3b8:	1f 5f       	subi	r17, 0xFF	; 255
+ 3ba:	27 96       	adiw	r28, 0x07	; 7
+ 3bc:	13 30       	cpi	r17, 0x03	; 3
+ 3be:	09 f0       	breq	.+2      	; 0x3c2 <__vector_7+0xca>
+ 3c0:	c2 cf       	rjmp	.-124    	; 0x346 <__vector_7+0x4e>
+		/* Increment tick according to tick frequency */
+		tsk->elapsed += (SCHED_BASE_MILISECOND / CONFIG_TICK_RATE);
+	}
+
+	/* Restore register context and return from IRQ */
+	RESTORE_CONTEXT();
+ 3c2:	ff 91       	pop	r31
+ 3c4:	ef 91       	pop	r30
+ 3c6:	df 91       	pop	r29
+ 3c8:	cf 91       	pop	r28
+ 3ca:	bf 91       	pop	r27
+ 3cc:	af 91       	pop	r26
+ 3ce:	9f 91       	pop	r25
+ 3d0:	8f 91       	pop	r24
+ 3d2:	7f 91       	pop	r23
+ 3d4:	6f 91       	pop	r22
+ 3d6:	5f 91       	pop	r21
+ 3d8:	4f 91       	pop	r20
+ 3da:	3f 91       	pop	r19
+ 3dc:	2f 91       	pop	r18
+ 3de:	1f 91       	pop	r17
+ 3e0:	0f 91       	pop	r16
+ 3e2:	ff 90       	pop	r15
+ 3e4:	ef 90       	pop	r14
+ 3e6:	df 90       	pop	r13
+ 3e8:	cf 90       	pop	r12
+ 3ea:	bf 90       	pop	r11
+ 3ec:	af 90       	pop	r10
+ 3ee:	9f 90       	pop	r9
+ 3f0:	8f 90       	pop	r8
+ 3f2:	7f 90       	pop	r7
+ 3f4:	6f 90       	pop	r6
+ 3f6:	5f 90       	pop	r5
+ 3f8:	4f 90       	pop	r4
+ 3fa:	3f 90       	pop	r3
+ 3fc:	2f 90       	pop	r2
+ 3fe:	1f 90       	pop	r1
+ 400:	0f 90       	pop	r0
+ 402:	0f be       	out	0x3f, r0	; 63
+ 404:	0f 90       	pop	r0
+	asm volatile("reti");
+ 406:	18 95       	reti
+
+00000408 <util_crc8>:
+ * @param data Pointer to the data for computation
+ * @param len Length of the data on which the CRC should be computed
+ * @return Computed CRC value
+ */
+uint8_t util_crc8(uint8_t *data, uint8_t len)
+{
+ 408:	fc 01       	movw	r30, r24
+ 40a:	90 e0       	ldi	r25, 0x00	; 0
+ 40c:	0f c0       	rjmp	.+30     	; 0x42c <util_crc8+0x24>
+	uint8_t byte, sum, i;
+	uint8_t crc = 0u;
+
+	/* Do crc stuff */
+	while (len--) {
+		byte = *data++;
+ 40e:	30 81       	ld	r19, Z
+ 410:	28 e0       	ldi	r18, 0x08	; 8
+		for(i = 8u; i > 0u; i--) {
+			sum = (crc ^ byte) & 1u;
+ 412:	89 2f       	mov	r24, r25
+ 414:	83 27       	eor	r24, r19
+			crc >>= 1u;
+ 416:	96 95       	lsr	r25
+			if (sum != 0u) {
+ 418:	80 ff       	sbrs	r24, 0
+ 41a:	02 c0       	rjmp	.+4      	; 0x420 <util_crc8+0x18>
+				crc ^= CONFIG_CRC8_POLY;
+ 41c:	8b ea       	ldi	r24, 0xAB	; 171
+ 41e:	98 27       	eor	r25, r24
+	uint8_t crc = 0u;
+
+	/* Do crc stuff */
+	while (len--) {
+		byte = *data++;
+		for(i = 8u; i > 0u; i--) {
+ 420:	21 50       	subi	r18, 0x01	; 1
+ 422:	11 f0       	breq	.+4      	; 0x428 <util_crc8+0x20>
+			sum = (crc ^ byte) & 1u;
+			crc >>= 1u;
+			if (sum != 0u) {
+				crc ^= CONFIG_CRC8_POLY;
+			}
+			byte >>= 1u;
+ 424:	36 95       	lsr	r19
+ 426:	f5 cf       	rjmp	.-22     	; 0x412 <util_crc8+0xa>
+	uint8_t byte, sum, i;
+	uint8_t crc = 0u;
+
+	/* Do crc stuff */
+	while (len--) {
+		byte = *data++;
+ 428:	31 96       	adiw	r30, 0x01	; 1
+ 42a:	61 50       	subi	r22, 0x01	; 1
+{
+	uint8_t byte, sum, i;
+	uint8_t crc = 0u;
+
+	/* Do crc stuff */
+	while (len--) {
+ 42c:	66 23       	and	r22, r22
+ 42e:	79 f7       	brne	.-34     	; 0x40e <util_crc8+0x6>
+			}
+			byte >>= 1u;
+		}
+	}
+	return crc;
+}
+ 430:	89 2f       	mov	r24, r25
+ 432:	08 95       	ret
+
+00000434 <util_init>:
+
+void util_init(void)
+{
+	DDRC = 0xFF;
+ 434:	8f ef       	ldi	r24, 0xFF	; 255
+ 436:	87 b9       	out	0x07, r24	; 7
+}
+ 438:	08 95       	ret
+
+0000043a <util_task>:
+
+void util_task(void)
+{
+	PORTB ^= (1 << 5);
+ 43a:	85 b1       	in	r24, 0x05	; 5
+ 43c:	90 e2       	ldi	r25, 0x20	; 32
+ 43e:	89 27       	eor	r24, r25
+ 440:	85 b9       	out	0x05, r24	; 5
+}
+ 442:	08 95       	ret
+
+00000444 <_exit>:
+ 444:	f8 94       	cli
+
+00000446 <__stop_program>:
+ 446:	ff cf       	rjmp	.-2      	; 0x446 <__stop_program>

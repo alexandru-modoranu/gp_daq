@@ -17,27 +17,29 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 *******************************************************************************/
 
-#include <avr/io.h>
-#include <avr/interrupt.h>
+#include <stdint.h>
 #include "util.h"
-#include "sched.h"
-#include "diag.h"
-#include "param.h"
 
-/**
- * Relocate Vectors and init stuff then go loop forever
+/* EEPROM Layout
+ * 1b - parameter valid flag
+ * 1b - uart baud rate index
  */
-void main(void)
+
+#define UART_BAUD(a) ((F_CPU / (16u * (uint32_t)a)) - 1u)
+
+struct param {
+	uint8_t isValid;
+	uint8_t baudIndex;
+};
+
+static struct param lparam;
+
+uint16_t param_get_baud(void)
 {
-	//MCUCR = (1u << IVCE);
-	//MCUCR = (1u << IVSEL);
+	return (uint16_t)UART_BAUD(9600);
+}
 
-	DDRB = 0xFF;
+void param_init(void)
+{
 
-	param_init();
-	diag_init();
-	sched_init();
-	sei();
-
-	while(TRUE);
 }
